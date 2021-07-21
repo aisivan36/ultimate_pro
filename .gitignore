@@ -9,3 +9,4 @@
 !.pub/
 !build/
 *pubspec.lock
+!windows/runner/
