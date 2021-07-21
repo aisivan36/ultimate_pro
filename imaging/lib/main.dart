@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:imaging/user_local_screen.dart';
+import 'package:imaging/FlexHome/flex_screen.dart';
+// import 'package:imaging/user_local_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blueGrey,
       ),
-      home: UserLocalScreen(),
+      home: FlexScreen(),
     );
   }
 }
