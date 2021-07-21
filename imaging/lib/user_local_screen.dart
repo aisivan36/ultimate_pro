@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:imaging/star.dart';
 
 class UserLocalScreen extends StatelessWidget {
   const UserLocalScreen({Key? key}) : super(key: key);
@@ -56,6 +57,7 @@ Widget _buildUserDetails(BuildContext context) {
             fontWeight: FontWeight.w400,
           ),
         ),
+        StarRating(value: 5),
         _buildCat('Age', '2'),
         _buildCat('Status', 'Anger'),
       ],

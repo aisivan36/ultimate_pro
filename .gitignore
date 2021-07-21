@@ -9,5 +9,4 @@
 !.pub/
 !build/
 *pubspec.lock
-!windows/runner/
 imaging/.vscode/launch.json
