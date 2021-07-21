@@ -23,7 +23,7 @@ class FlexScreen extends StatelessWidget {
             ),
             _buildFooter(context),
 
-            /// This is how the [Spread] operator works. For Instance.
+            //// This is how the [Spread] operator works. For Instance.
             // for (Widget thewidget in _theWidgetBody()) thewidget,
             // ..._theWidgetBody(),
           ],
