@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:imaging/global_theme/global_main_screen.dart';
+import 'package:imaging/neesting/deep_tree.dart';
 // import 'package:imaging/FlexHome/flex_screen.dart';
-import 'package:imaging/user_local_screen.dart';
 
+/// To test some code you have to change in the main [runaApp]
 void main() {
-  runApp(MyApp());
+  runApp(GlobalTheme());
 }
 
 class MyApp extends StatelessWidget {
@@ -24,7 +26,9 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blueGrey,
       ),
-      home: UserLocalScreen(),
+
+      /// Some alose with this in the home body widget. Read with througly.
+      home: DeepTree(),
     );
   }
 }

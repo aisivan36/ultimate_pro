@@ -70,18 +70,16 @@ class StarRating extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Row(
-      children: [
-        List<Widget>.generate(
-          value,
-          (index) => Padding(
-            padding: EdgeInsets.all(2.0),
-            child: Star(
-              color: color,
-              size: starSize,
-            ),
+      children: List<Widget>.generate(
+        value,
+        (index) => Padding(
+          padding: EdgeInsets.all(2.0),
+          child: Star(
+            color: color,
+            size: starSize,
           ),
-        )
-      ],
+        ),
+      ),
     );
   }
 }
